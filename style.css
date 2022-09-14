@@ -20,12 +20,21 @@
       flex: 2 2;
       text-align: center;
   }
+ .text{
+      display: flex;
+      align-items:center;
+  }
   
   .left{
       background-color:#4ba1da;
       font-size: 16px;
   }
-  
+   body{
+      margin: 0;
+      padding: 0;
+      overflow: scroll;
+  }
+
   .list-container{
     flex-direction: row;
     flex-wrap: wrap;
@@ -33,19 +42,9 @@
     background-color: #E5E7E9 ;
   }
 
-  .footer{
+  
+.footer{
     border: 1px solid black;
     background-color: #3245eb;
     height: 70px;
   }
-  body{
-      margin: 0;
-      padding: 0;
-      overflow: scroll;
-  }
-
-  .text{
-      display: flex;
-      align-items:center;
-  }
-  
