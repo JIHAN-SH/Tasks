@@ -49,8 +49,3 @@
       align-items:center;
   }
   
-  .half-containers {
-     max-height:47%;
-     border:1px solid black;
-     justify-content: center;
-  }
